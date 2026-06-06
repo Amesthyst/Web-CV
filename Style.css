@@ -203,6 +203,29 @@ li{
     font-size: 14px;
 }
 
+.btn-live-demo {
+    display: inline-block;
+    padding: 6px 12px;   /* lebih kecil */
+    font-size: 13px;     /* kecil & clean */
+    background: linear-gradient(135deg, #4f46e5, #06b6d4);
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.btn-live-demo:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+    background: linear-gradient(135deg, #6366f1, #22d3ee);
+}
+
+.btn-live-demo:active {
+    transform: scale(0.97);
+}
+
 @media(max-width: 768px){
 
     .cv-container{
