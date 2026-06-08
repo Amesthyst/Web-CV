@@ -3,276 +3,233 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Ricky Pratama Liang - Resume</title>
 
-    <!DOCTYPE html>
-
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
-
-```
-<link rel="stylesheet" href="Style.css">
-```
-
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="cv-container">
 
-```
-    <div class="header">
+<div class="cv-container">
+
+    <div class="top-actions">
+        <button onclick="window.print()" class="btn-download">
+            Download PDF
+        </button>
+    </div>
+
+    <header class="header">
+
         <div class="header-left">
-            <div class="name">
+
+            <h1 class="name">
                 Ricky Pratama Liang
-            </div>
-            <div class="title">
-                Software Engineer
-            </div>
+            </h1>
+
+            <h2 class="job-title">
+                Full Stack Software Developer
+            </h2>
+
             <div class="contact">
-                085361350808 | rickypratama1432@gmail.com |
-            </div>
-            <div class="contact">
-                www.linkedin.com/in/ricky-pratama-liang-95b5472a5/
-            </div>
-        </div>
-        <div class="header-right">
-            <img class="profile" src="asset/image/Foto ijazah.jpg">
-        </div>
-    </div>
-
-    <!-- PROFILE -->
-    <div class="section dropdown-section active">
-        <div class="section-title dropdown-title">
-            PROFILE
-            <span class="arrow">▼</span>
-        </div>
-        <div class="dropdown-content">
-            <p class="profile-text">
-                Software Developer with strong interest in Artificial Intelligence, web development, and modern software engineering. Passionate about solving complex problems, learning new technologies, and building scalable and user-friendly applications.
-            </p>
-            <p class="profile-text">
-                Experienced in developing web applications using ASP.NET, Next.js, React.js, Node.js, and PostgreSQL. Also actively exploring machine learning and AI-based systems to improve model performance and real-world application impact.
-            </p>
-            <p class="profile-text">
-                Adaptable team player with strong problem-solving skills, communication ability, and growth mindset. Focused on delivering efficient, clean, and high-quality software solutions.
-            </p>
-        </div>
-    </div>
-
-    <!-- EDUCATION -->
-    <div class="section dropdown-section active">
-        <div class="section-title dropdown-title">
-            EDUCATION
-            <span class="arrow">▼</span>
-        </div>
-
-        <div class="dropdown-content">
-            <div class="row">
-                <div class="left">
-                    <div class="main-text">Binus University (Indonesia)</div>
-                    <div class="sub-text">Bachelor of Computer Science (GPA: 3.69/4.00)</div>
-                </div>
-                <div class="right italic">
-                    Sep 2021 – Dec 2025
-                </div>
+                <p>📱 085361350808</p>
+                <p>📧 rickypratama1432@gmail.com</p>
+                <p>🔗 www.linkedin.com/in/ricky-pratama-liang-95b5472a5</p>
+                <!-- <p>🔗 Portofolio</p> -->
             </div>
 
-            <div class="row">
-                <div class="left">
-                    <div class="main-text">Yuanze University (Taiwan)</div>
-                    <div class="sub-text">Exchange Student</div>
-                </div>
-                <div class="right italic">
-                    Feb 2024 – Jun 2024
-                </div>
+        </div>
+
+    </header>
+
+    <section class="section">
+
+        <h2 class="section-title">
+            Professional Summary
+        </h2>
+
+        <p>
+            Full Stack Software Developer with experience developing and
+            maintaining web and mobile applications using React.js,
+            Next.js, Node.js, ASP.NET, React Native, PostgreSQL,
+            and SQL Server.
+        </p>
+
+        <p>
+            Experienced in enterprise projects including TLS Lexus,
+            Accelist Career, and Kumpul Yuk. Strong foundation in
+            software engineering, database design, and modern web development.
+        </p>
+
+    </section>
+
+    <section class="section">
+
+        <h2 class="section-title">
+            Education
+        </h2>
+
+        <div class="education-item">
+
+            <div>
+                <h3>Binus University</h3>
+                <p>Bachelor of Computer Science</p>
+                <p>GPA: 3.69 / 4.00</p>
             </div>
-        </div>
-    </div>
 
-    <!-- WORK EXPERIENCE -->
-    <div class="section dropdown-section active">
-        <div class="section-title dropdown-title">
-            WORK EXPERIENCE
-            <span class="arrow">▼</span>
+            <span>
+                Sep 2021 – Dec 2025
+            </span>
+
         </div>
 
-        <div class="dropdown-content">
-            <div class="row">
-                <div class="left">
-                    <div class="main-text">PT Accelist Lentera Indonesia</div>
-                    <div class="sub-text italic">Full Stack Developer Intern</div>
-                </div>
-                <div class="right italic">
-                    Sep 2024 – Mar 2025
-                </div>
+        <div class="education-item">
+
+            <div>
+                <h3>Yuanze University</h3>
+                <p>Exchange Student Program</p>
             </div>
-        </div>
-    </div>
 
-    <!-- PROJECTS -->
-    <div class="section dropdown-section active">
-        <div class="section-title dropdown-title">
-            PROJECT
-            <span class="arrow">▼</span>
+            <span>
+                Feb 2024 – Jun 2024
+            </span>
+
         </div>
 
-        <div class="dropdown-content">
+    </section>
 
-            <div class="project">
-                <div class="project-title">Fashion E-Commerce UI/UX Website</div>
+    <section class="section">
+
+        <h2 class="section-title">
+            Work Experience
+        </h2>
+
+        <div class="experience-item">
+
+            <div>
+
+                <h3>
+                    PT Accelist Lentera Indonesia
+                </h3>
+
+                <p class="position">
+                    Full Stack Developer Intern
+                </p>
+
                 <ul>
-                    <li>Designed UI/UX using Canva</li>
-                    <li>Researched fashion trends and product data</li>
-                    <li>Implemented responsive interface using HTML & CSS</li>
+
+                    <li>
+                        Developed web applications using React.js,
+                        Node.js, ASP.NET and SQL Server.
+                    </li>
+
+                    <li>
+                        Implemented new features and resolved bugs.
+                    </li>
+
+                    <li>
+                        Improved UI/UX and application performance.
+                    </li>
+
+                    <li>
+                        Participated in database migration projects.
+                    </li>
+
+                    <li>
+                        Developed React Native mobile features.
+                    </li>
+
                 </ul>
+
             </div>
 
-            <div class="project">
-                <div class="project-title">Image Denoising Research (U-Net)</div>
-                <ul>
-                    <li>Built deep learning model using Python (U-Net architecture)</li>
-                    <li>Improved model performance through preprocessing and tuning</li>
-                    <li>Evaluated using MAE and model fitting metrics</li>
-                    <li>Presented research at international conference (AiDAS)</li>
-                </ul>
+            <span>
+                Sep 2024 – Mar 2025
+            </span>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <h2 class="section-title">
+            Technical Skills
+        </h2>
+
+        <div class="skills-grid">
+
+            <div>
+                <strong>Programming</strong>
+                <p>JavaScript, TypeScript, Python, C#</p>
             </div>
 
-            <div class="project">
-                <div class="project-title">Movie Recommendation System</div>
-                <ul>
-                    <li>Developed recommendation model using reinforcement learning approach</li>
-                    <li>Performed feature extraction and parameter optimization</li>
-                    <li>Evaluated using RMSE, MAE, and Top-K accuracy</li>
-                </ul>
+            <div>
+                <strong>Frontend</strong>
+                <p>React.js, Next.js, HTML, CSS</p>
             </div>
 
-            <div class="project">
-                <div class="project-title">Campus Cafeteria Reservation System</div>
-                <ul>
-                    <li>Developed full-stack web application using Laravel</li>
-                    <li>Designed and managed relational database schema</li>
-                    <li>Implemented authentication and seat reservation system</li>
-                    <li>Generated dynamic seat allocation data</li>
-                </ul>
+            <div>
+                <strong>Backend</strong>
+                <p>Node.js, ASP.NET, Laravel</p>
             </div>
 
-            <div class="project">
-                <div class="project-title">Accelist Career System</div>
-                <ul>
-                    <li>Developed UI components using React.js</li>
-                    <li>Implemented backend logic using Node.js</li>
-                    <li>Improved form validation and authentication flows</li>
-                    <li>Fixed UI/UX issues and enhanced system stability</li>
-                    <li>Performed testing, debugging, and Git-based collaboration</li>
-                </ul>
+            <div>
+                <strong>Database</strong>
+                <p>PostgreSQL, SQL Server</p>
             </div>
 
-            <div class="project">
-                <div class="project-title">TLS Lexus (Toyota Logistic System)</div>
-                <ul>
-                    <li>Maintained and enhanced legacy enterprise system</li>
-                    <li>Optimized SQL queries and improved system performance</li>
-                    <li>Fixed critical bugs and data consistency issues</li>
-                    <li>Supported QA testing and deployment preparation</li>
-                </ul>
+            <div>
+                <strong>Mobile</strong>
+                <p>React Native, Expo</p>
             </div>
 
-            <div class="project">
-                <div class="project-title">Kumpul YUK Mobile App</div>
-                <ul>
-                    <li>Built marketplace UI using React Native</li>
-                    <li>Improved mobile UX and fixed critical bugs</li>
-                    <li>Implemented dynamic input and form enhancements</li>
-                    <li>Integrated Expo Go for mobile testing workflow</li>
-                </ul>
+            <div>
+                <strong>Tools</strong>
+                <p>Git, GitHub, VS Code</p>
             </div>
 
         </div>
-    </div>
 
-    <!-- ACHIEVEMENTS -->
-    <div class="section dropdown-section active">
-        <div class="section-title dropdown-title">
-            ACHIEVEMENTS
-            <span class="arrow">▼</span>
-        </div>
-        <div class="dropdown-content">
-            <ul>
-                <li>Certified presenter at the 4th International Conference on Artificial Intelligence and Data Science (AiDAS)</li>
-                <li>Digital Transformation for Innovation Certification – BCA</li>
-            </ul>
-        </div>
-    </div>
+    </section>
 
-    <!-- SKILLS -->
-    <div class="section dropdown-section active">
-        <div class="section-title dropdown-title">
-            RELEVANT SKILLS
-            <span class="arrow">▼</span>
-        </div>
+    <section class="section">
 
-        <div class="dropdown-content">
-            <ul>
-                <li><b>Soft Skills:</b> Problem Solving, Team Collaboration, Communication, Adaptability, Critical Thinking, Time Management</li>
-                <li><b>Technical Skills:</b> JavaScript, TypeScript, React.js, Next.js, Node.js, React Native, ASP.NET, Laravel, PostgreSQL, SQL Server, Python, Git</li>
-            </ul>
-        </div>
-    </div>
+        <h2 class="section-title">
+            Achievements
+        </h2>
 
-    <!-- LANGUAGES -->
-    <div class="section dropdown-section active">
-        <div class="section-title dropdown-title">
-            LANGUAGE
-            <span class="arrow">▼</span>
-        </div>
-        <div class="dropdown-content">
-            <div class="skill">
-                <div class="skill-name">Indonesian</div>
-                <div class="skill-bar"><div class="skill-fill" data-level="100"></div></div>
-            </div>
+        <ul>
 
-            <div class="skill">
-                <div class="skill-name">English</div>
-                <div class="skill-bar"><div class="skill-fill" data-level="90"></div></div>
-            </div>
+            <li>
+                Presenter at AiDAS International Conference
+            </li>
 
-            <div class="skill">
-                <div class="skill-name">Japanese</div>
-                <div class="skill-bar"><div class="skill-fill" data-level="70"></div></div>
-            </div>
+            <li>
+                BCA Digital Transformation for Innovation Certification
+            </li>
 
-            <div class="skill">
-                <div class="skill-name">Mandarin</div>
-                <div class="skill-bar"><div class="skill-fill" data-level="55"></div></div>
-            </div>
-        </div>
-    </div>
+        </ul>
 
-    <!-- PORTFOLIO (NEW) -->
-    <div class="section dropdown-section active">
-        <div class="section-title dropdown-title">
-            PORTFOLIO
-            <span class="arrow">▼</span>
-        </div>
-        <div class="dropdown-content">
-            <ul>
-                <li>Full Stack Projects: Next.js, Restaurant Management System</li>
-                <p>Admin Role account</p>
-                <p>User: admin@gmail.com</p>
-                <p>password: admin123</p>
-                <a class="btn-live-demo" href="https://restaurant-management-system-kon4dewwd-amesthysts-projects.vercel.app/" target="_blank">
-                    Live Demo
-                </a>
-            </ul>
-        </div>
-    </div>
+    </section>
+
+    <section class="section">
+
+        <h2 class="section-title">
+            Languages
+        </h2>
+
+        <ul>
+
+            <li>Indonesian (Native)</li>
+            <li>English (Professional)</li>
+            <li>Japanese (Intermediate)</li>
+            <li>Mandarin (Beginner)</li>
+
+        </ul>
+
+    </section>
 
 </div>
-
-<script src="Script.js"></script>
-```
 
 </body>
 </html>
